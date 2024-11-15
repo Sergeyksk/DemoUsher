@@ -15,7 +15,7 @@
     "smoke": false,
     "tdd": false,
     "bdd": false,
-    "build": false
+    "build": true
   },
   "prepareBase": {
     "sourcePath": "./src/cf"
