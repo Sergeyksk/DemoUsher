@@ -2,7 +2,7 @@
   "agent": "slave",
   "v8Version": "8.3",
   "defaultInfobase": {
-    "connectionString": "/F./build/ib"
+    "connectionString": "/Slocalhost/demoup_ms"
   },
   "notification": {
     "mode": "EMAIL",

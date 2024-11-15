@@ -1,0 +1,5424 @@
+{
+"date": "2024-11-15 11:44:15",
+"fileinfos": [
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/Путеводитель/Commands/ПутеводительПоКонфигурации/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/Оплата/Forms/ФормаДокумента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 62
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ИсходящиеПисьма/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 29
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранимыеФайлы/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 843,
+"character": 1
+},
+"end": {
+"line": 843,
+"character": 46
+}
+},
+"severity": "Error",
+"code": "572 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Процедура или функция с указанным именем не определена.\nПроцедура или функция с указанным именем не определена (ПолучитьИмяВременногоФайла)\nВременныйФайл = <<?>>ПолучитьИмяВременногоФайла(); (Проверка: Веб-клиент)  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "567 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Не обнаружено ссылок на процедуру.\nНе обнаружено ссылок на процедуру: \"ПередЗаписьюНаСервере\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 844,
+"character": 1
+},
+"end": {
+"line": 844,
+"character": 55
+}
+},
+"severity": "Error",
+"code": "566 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Использование синхронного вызова.\nИспользование синхронного вызова: \"КопироватьФайл\".\n\nСтрока модуля:\nКопироватьФайл(ПутьКЗагружаемомуФайлу, ВременныйФайл);  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 705,
+"character": 2
+},
+"end": {
+"line": 705,
+"character": 22
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(Сообщение);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 698,
+"character": 2
+},
+"end": {
+"line": 698,
+"character": 53
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Нет данных файла!!!'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 683,
+"character": 3
+},
+"end": {
+"line": 683,
+"character": 58
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка расшифровки данных'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 668,
+"character": 3
+},
+"end": {
+"line": 668,
+"character": 58
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка расшифровки данных'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 645,
+"character": 2
+},
+"end": {
+"line": 645,
+"character": 75
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка инициализации менеджера криптографии'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 633,
+"character": 2
+},
+"end": {
+"line": 633,
+"character": 53
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Нет данных файла!!!'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 628,
+"character": 2
+},
+"end": {
+"line": 628,
+"character": 110
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Для требуемой операции необходимо установить расширение работы с криптографией'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 613,
+"character": 2
+},
+"end": {
+"line": 613,
+"character": 22
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(Сообщение);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 590,
+"character": 3
+},
+"end": {
+"line": 590,
+"character": 25
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(ТекстОшибки);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 548,
+"character": 2
+},
+"end": {
+"line": 548,
+"character": 78
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Файл подписан, операция шифрования запрещена'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 543,
+"character": 2
+},
+"end": {
+"line": 543,
+"character": 53
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Файл уже зашифрован'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 539,
+"character": 2
+},
+"end": {
+"line": 539,
+"character": 110
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Для требуемой операции необходимо установить расширение работы с криптографией'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 436,
+"character": 3
+},
+"end": {
+"line": 436,
+"character": 65
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка помещения файла на сервер'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 422,
+"character": 2
+},
+"end": {
+"line": 422,
+"character": 75
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка инициализации менеджера криптографии'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 415,
+"character": 2
+},
+"end": {
+"line": 415,
+"character": 110
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Для требуемой операции необходимо установить расширение работы с криптографией'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 327,
+"character": 2
+},
+"end": {
+"line": 327,
+"character": 75
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка инициализации менеджера криптографии'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 287,
+"character": 2
+},
+"end": {
+"line": 287,
+"character": 110
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Для требуемой операции необходимо установить расширение работы с криптографией'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 652,
+"character": 0
+},
+"end": {
+"line": 652,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ПолучитьСРасшифровкойЗавершение(Результат, Контекст) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 560,
+"character": 0
+},
+"end": {
+"line": 560,
+"character": 60
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ЗашифроватьЗавершение(Результат, Контекст) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 361,
+"character": 0
+},
+"end": {
+"line": 361,
+"character": 59
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ПодписатьЗавершение2(Результат, Контекст) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 131,
+"character": 0
+},
+"end": {
+"line": 131,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура СкрытьИндикаторПрогресса() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 792,
+"character": 0
+},
+"end": {
+"line": 792,
+"character": 79
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// интерактивный ввод пароля доступа к закрытому ключу сертификата криптографии\n// возвращает введенный пароль в параметре вызова Пароль\n// возращает Истина, если пароль введен  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 732,
+"character": 0
+},
+"end": {
+"line": 732,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// процедура получает с сервера в виде массива двоичных данных файлы, первым идет\n// файл, затем, при наличии, файлы ЭЦП  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 692,
+"character": 0
+},
+"end": {
+"line": 692,
+"character": 30
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// процедура проверяет подписи\n// - возращает Истина, если все подписи прошли проверку  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 431,
+"character": 2
+},
+"end": {
+"line": 431,
+"character": 73
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// если не подключено расширение работы с файлами, операция выполняется\n// неоптимально, увеличивается трафик с сервером и снижается защищенность  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 14,
+"character": 2
+},
+"end": {
+"line": 14,
+"character": 105
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// при копировании очищаем имя файла, чтобы не возникало иллюзии, что содержимое файла тоже скопируется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСПочтойВызовСервера/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 29,
+"character": 2
+},
+"end": {
+"line": 29,
+"character": 79
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(\"Введен некорректный адрес электронной почты: \" + ЭлектроннаяПочта);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 32
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 21,
+"character": 1
+},
+"end": {
+"line": 21,
+"character": 27
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//RFC 5322 compliant regex  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/ФормаПодбора/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ОбменМобильныеВызовПК/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 106
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/ОбщиеНастройки/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 61
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/НастройкиМобильногоУстройства/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 99
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/ФормаВыбораПользователяСистемыВзаимодействия/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/НастройкиТорговогоОборудования/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Контрагенты/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 42,
+"character": 2
+},
+"end": {
+"line": 42,
+"character": 48
+}
+},
+"severity": "Error",
+"code": "572 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Процедура или функция с указанным именем не определена.\nПроцедура или функция с указанным именем не определена (ПроверитьАдресЭлектроннойПочты)\nЕсли НЕ <<?>>ПроверитьАдресЭлектроннойПочты() Тогда (Проверка: Толстый клиент (управляемое приложение, вариант клиент-сервер))  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 42,
+"character": 2
+},
+"end": {
+"line": 42,
+"character": 48
+}
+},
+"severity": "Error",
+"code": "572 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Процедура или функция с указанным именем не определена.\nПроцедура или функция с указанным именем не определена (ПроверитьАдресЭлектроннойПочты)\nЕсли НЕ <<?>>ПроверитьАдресЭлектроннойПочты() Тогда (Проверка: Внешнее соединение (вариант клиент-сервер))  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 80
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/УстановитьСканерШтрихкодов/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/НастроитьСканерШтрихКодов/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/ExchangePlans/Мобильные/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 98
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/УстановитьРасширениеРаботыСФайлами/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/УстановитьРасширениеРаботыСКриптографией/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/УстановитьВидимостьОбъектовЧерезODataAPI/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/НастройкаБота/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 5,
+"character": 2
+},
+"end": {
+"line": 5,
+"character": 74
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Настройка доступна только администратору'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ГеопозиционированиеКлиент/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 100,
+"character": 1
+},
+"end": {
+"line": 100,
+"character": 144
+}
+},
+"severity": "Error",
+"code": "1223 : В сообщениях не употребляются местоимения \"Вы\"_ \"Вас\" и пр.",
+"source": "acc",
+"message": "Сообщение содержит нерекомендуемое местоимение (\"Вы\", \"Вас\" и пр.).\nСообщение = Геозона.Представление + НСтр(\"ru = ': Вы приближаетесь к местоположению покупателя. Показать список его активных заказов?'\", \"ru\");  \n  \nhttps://its.1c.ru/db/v8std#content:585:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 82
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Товары/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 60
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/WebServices/MAExchange/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 5,
+"character": 0
+},
+"end": {
+"line": 5,
+"character": 151
+}
+},
+"severity": "Error",
+"code": "1143 : Проверка комментариев на допустимую длину",
+"source": "acc",
+"message": "Длина комментария превышает 120 символов.\n//  НаименованиеМобильногоКомпьютера - читаемое представление данного узла, не обязательно, изменяемое, используется как наименование узла плана обмена",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 25
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/HTTPServices/Товары/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 30
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 180,
+"character": 6
+},
+"end": {
+"line": 180,
+"character": 52
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Для группы получаем дочерние товары и группы  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 166,
+"character": 5
+},
+"end": {
+"line": 166,
+"character": 43
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Дошли до последнего сегмента в пути.  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 30,
+"character": 6
+},
+"end": {
+"line": 30,
+"character": 52
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Для группы получаем дочерние товары и группы  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 19,
+"character": 5
+},
+"end": {
+"line": 19,
+"character": 43
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Дошли до последнего сегмента в пути.  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/МобильныеУстройства/Ext/ManagerModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 83
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/HTTPServices/ОписанияТоваров/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 31
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/ОстаткиТоваровНаСкладахКоманда/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранимыеФайлы/Forms/ФормаЗагрузкиФайлов/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранимыеФайлы/Forms/ФормаСписка/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 475,
+"character": 1
+},
+"end": {
+"line": 475,
+"character": 56
+}
+},
+"severity": "Error",
+"code": "572 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Процедура или функция с указанным именем не определена.\nПроцедура или функция с указанным именем не определена (ПолучитьИмяВременногоФайла)\nИмяФайла = <<?>>ПолучитьИмяВременногоФайла(Файл.Расширение); (Проверка: Веб-клиент)  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 220,
+"character": 3
+},
+"end": {
+"line": 220,
+"character": 28
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(ТекстСообщения);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 361,
+"character": 0
+},
+"end": {
+"line": 361,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура СкрытьИндикаторПрогресса() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 356,
+"character": 0
+},
+"end": {
+"line": 356,
+"character": 46
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ПоказатьЗавершениеЗагрузки() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ИсходящиеПисьма/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 241,
+"character": 2
+},
+"end": {
+"line": 241,
+"character": 35
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(\"Выберите контрагента\");  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 179,
+"character": 2
+},
+"end": {
+"line": 179,
+"character": 35
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(\"Выберите контрагента\");  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 138,
+"character": 0
+},
+"end": {
+"line": 138,
+"character": 77
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ОтправитьПисьмоКлиентВопросЗавершение(Результат, Параметры) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 22
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ГлобальныйПоискСервер/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 84
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 220,
+"character": 3
+},
+"end": {
+"line": 220,
+"character": 35
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Формируем информацию по долгам  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 214,
+"character": 1
+},
+"end": {
+"line": 214,
+"character": 29
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Формируем результат поиска  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 200,
+"character": 1
+},
+"end": {
+"line": 200,
+"character": 59
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Формируем Соответствие: Контрагент - список задолжностей  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 193,
+"character": 1
+},
+"end": {
+"line": 193,
+"character": 51
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Получаем информацию по задолжностям контрагентов  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Встречи/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 86
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Встречи/Ext/ManagerModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 58
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Встречи/Commands/ОткрытьКалендарь/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСПочтой/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 308,
+"character": 1
+},
+"end": {
+"line": 308,
+"character": 110
+}
+},
+"severity": "Error",
+"code": "1223 : В сообщениях не употребляются местоимения \"Вы\"_ \"Вас\" и пр.",
+"source": "acc",
+"message": "Сообщение содержит нерекомендуемое местоимение (\"Вы\", \"Вас\" и пр.).\nКоллекцияПараграфов.Добавить().Элементы.Добавить(\"Мы рады сообщить Вам о наших новых ценовых предложениях.\");  \n  \nhttps://its.1c.ru/db/v8std#content:585:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 110,
+"character": 2
+},
+"end": {
+"line": 110,
+"character": 92
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Ошибка при подключении к почтовому серверу. Проверьте настройки.'\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 59
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Встречи/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 136
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ЗаполнитьСписокВыбораВремени(ПолеВводаФормы, Интервал = 3600, Начало = '00010101080000', Окончание = '00010101200000') Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Встречи/Forms/ФормаСписка/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Reports/ОстаткиТоваровНаСкладах/Commands/ОстаткиПоСкладу/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранимыеФайлы/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 29
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/Заказ/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 69
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 44,
+"character": 1
+},
+"end": {
+"line": 44,
+"character": 16
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//валютный учет  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 43,
+"character": 1
+},
+"end": {
+"line": 43,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удалим из списка проверяемых реквизитов валюту, если по организации не ведется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/Заказ/Ext/ManagerModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 40
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/ОперацияПоУчетуТоваров/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/Оплата/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 43,
+"character": 1
+},
+"end": {
+"line": 43,
+"character": 16
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//валютный учет  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 42,
+"character": 1
+},
+"end": {
+"line": 42,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удалим из списка проверяемых реквизитов валюту, если по организации не ведется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/Звонок/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ВходящийЗапросПоделитьсяКлиент/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 64
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранимыеФайлы/Forms/СписокСертификатов/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 125,
+"character": 2
+},
+"end": {
+"line": 125,
+"character": 75
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка инициализации менеджера криптографии'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 54,
+"character": 2
+},
+"end": {
+"line": 54,
+"character": 75
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru='Ошибка инициализации менеджера криптографии'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 148,
+"character": 0
+},
+"end": {
+"line": 148,
+"character": 85
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nАсинх Процедура УстановитьСледующееХранилищеСертификатов(Хранилище, Контекст) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 15,
+"character": 0
+},
+"end": {
+"line": 15,
+"character": 49
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура Установка(ПараметрыВыбора_Вход) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 19,
+"character": 0
+},
+"end": {
+"line": 19,
+"character": 39
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// возвращает результаты выбора в форме\n// - при множественном выборе - массив сертификатов\n// - при единичном выборе - выбранный сертификат криптографии  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 12,
+"character": 0
+},
+"end": {
+"line": 12,
+"character": 90
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// определяет типы хранилищ сертификатов, сертификаты которых требуется поместить в список\n// ПараметрыВыбора_Вход - список типов хранилищ сертификатов  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Reports/ДашбордПродажи/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 93
+}
+},
+"severity": "Error",
+"code": "573 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Пустой обработчик.\nПустой обработчик: \"ПриКомпоновкеРезультата\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 93
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/ФормаПодбораМобильная/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 150,
+"character": 2
+},
+"end": {
+"line": 150,
+"character": 51
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nсообщить(\"Произошла ошибка, попробуйте еще раз\");  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСПанельюЗадач/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 73
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/Заказ/Forms/ФормаДокумента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 289,
+"character": 0
+},
+"end": {
+"line": 289,
+"character": 36
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ОбработатьПодбор() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ЖурналРегистрации/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 68
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ПроведениеДокументов/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 36
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 16,
+"character": 0
+},
+"end": {
+"line": 16,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Проведение документов из имеющегося списка  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 36
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Заполнение списка видов документов  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/УправлениеНастройкамиФорм/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 69
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Товары/Commands/ПечатьШтрихкода/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 11
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/SettingsStorages/ХранилищеВариантовОтчетов/Forms/ФормаСохранения/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/УведомленияКлиент/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 40,
+"character": 4
+},
+"end": {
+"line": 40,
+"character": 26
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(ТекстОшибки);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 28
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Товары/Forms/ФормаСпискаСОстатками/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранилищеВариантовОтчетов/Commands/ОткрытьОтчет/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/РасчетныеСчетаКонтрагентов/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 39
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Товары/Commands/ПечатьПрайсЛиста/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Товары/Commands/ЗаписатьNFCМетку/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 32,
+"character": 2
+},
+"end": {
+"line": 32,
+"character": 52
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nсообщить(\"Произошла ошибка, попробуйте еще раз.\");  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 10,
+"character": 2
+},
+"end": {
+"line": 10,
+"character": 48
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nсообщить(\"Нет возможности для записи метки!\");  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ИсходящиеПисьма/Commands/КомандаОтправитьПисьмоКонтрагенту/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/Заказ/Commands/Печать/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/АдминистративныйСервис/Commands/АдминистративныйСервис/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/SettingsStorages/ХранилищеВариантовОтчетов/Forms/ФормаЗагрузки/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/УведомленияСервер/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Товары/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "568 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Не обнаружено ссылок на функцию.\nНе обнаружено ссылок на функцию: \"ПолучитьДанныеКартинкиНаСервере\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 421,
+"character": 1
+},
+"end": {
+"line": 421,
+"character": 24
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Запишем набор записей  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 396,
+"character": 1
+},
+"end": {
+"line": 396,
+"character": 61
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Сформируем набор записей с новыми значениями характеристик  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 385,
+"character": 1
+},
+"end": {
+"line": 385,
+"character": 21
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удаление реквизита  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 382,
+"character": 1
+},
+"end": {
+"line": 382,
+"character": 20
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удаление элемента  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 379,
+"character": 1
+},
+"end": {
+"line": 379,
+"character": 20
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удаление описания  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 368,
+"character": 1
+},
+"end": {
+"line": 368,
+"character": 34
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Новый элемент установим текущим  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 363,
+"character": 1
+},
+"end": {
+"line": 363,
+"character": 37
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавление описания характеристики  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 351,
+"character": 1
+},
+"end": {
+"line": 351,
+"character": 41
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавление элемента, заполнение данных  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 334,
+"character": 1
+},
+"end": {
+"line": 334,
+"character": 23
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавление реквизита  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 298,
+"character": 1
+},
+"end": {
+"line": 298,
+"character": 78
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавление элементов, заполнение данных, добавление описания характеристики  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 246,
+"character": 1
+},
+"end": {
+"line": 246,
+"character": 24
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавление реквизитов  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 239,
+"character": 1
+},
+"end": {
+"line": 239,
+"character": 20
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Выполним удаление  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 235,
+"character": 1
+},
+"end": {
+"line": 235,
+"character": 17
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Проверим выбор  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 227,
+"character": 1
+},
+"end": {
+"line": 227,
+"character": 24
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Выберем удаляемый вид  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 216,
+"character": 1
+},
+"end": {
+"line": 216,
+"character": 38
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавим вид характеристики на форму  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 210,
+"character": 1
+},
+"end": {
+"line": 210,
+"character": 19
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Проверим наличие  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 192,
+"character": 1
+},
+"end": {
+"line": 192,
+"character": 29
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Выберем вид характеристики  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 178,
+"character": 0
+},
+"end": {
+"line": 178,
+"character": 18
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//товар ИЛИ услуга  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 177,
+"character": 0
+},
+"end": {
+"line": 177,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Расстановка признака доступность элементов в зависимости от того, редактируется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/ПриходТовара/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 80
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 69,
+"character": 1
+},
+"end": {
+"line": 69,
+"character": 16
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//валютный учет  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 68,
+"character": 1
+},
+"end": {
+"line": 68,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удалим из списка проверяемых реквизитов валюту, если по организации не ведется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/ОперацияПоУчетуТоваров/Forms/ФормаДокумента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Склады/Ext/ManagerModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 40,
+"character": 2
+},
+"end": {
+"line": 40,
+"character": 46
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Исключим неиспользуемые из ввода по строке  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 26,
+"character": 3
+},
+"end": {
+"line": 26,
+"character": 28
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Заполним предупреждение  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 9,
+"character": 2
+},
+"end": {
+"line": 9,
+"character": 39
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Сфорируем список с предупреждениями  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ВходящиеПисьма/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 2,
+"character": 0
+},
+"end": {
+"line": 2,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/ПриходТовара/Forms/ФормаДокумента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/РасходТовара/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 303,
+"character": 1
+},
+"end": {
+"line": 303,
+"character": 77
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Если склад не заполнен, то проверим есть ли в документе что-то кроме услуг  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 279,
+"character": 1
+},
+"end": {
+"line": 279,
+"character": 16
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//валютный учет  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 278,
+"character": 1
+},
+"end": {
+"line": 278,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удалим из списка проверяемых реквизитов валюту, если по организации не ведется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 178,
+"character": 1
+},
+"end": {
+"line": 178,
+"character": 47
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Контроль остатков при оперативном проведении  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 175,
+"character": 1
+},
+"end": {
+"line": 175,
+"character": 19
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Запишем движения  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ГеопозиционированиеСервер/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 82
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Ext/ManagedApplicationModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 5,
+"character": 0
+},
+"end": {
+"line": 5,
+"character": 43
+}
+},
+"severity": "Error",
+"code": "127 : 2.5.5. Все переменные модуля обычного приложения_ модуля управляемого приложения_ модуля сеанса_",
+"source": "acc",
+"message": "Отсутствует описание у экспортной переменной.\nПерем ИдентификаторФоновогоЗадания Экспорт;",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 80
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Ext/SessionModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 58
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Ext/OrdinaryApplicationModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/Пользователи/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 73,
+"character": 1
+},
+"end": {
+"line": 73,
+"character": 25
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(\"Коммиты гит\");  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 66
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 71,
+"character": 0
+},
+"end": {
+"line": 71,
+"character": 11
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//тест гист  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/РасходТовара/Forms/ФормаДокумента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  Форма \"ОбработкаПолученияСпискаНавигационныхСсылок\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  Форма \"ОбработкаПолученияНавигационнойСсылки\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 278,
+"character": 0
+},
+"end": {
+"line": 278,
+"character": 36
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ОбработатьПодбор() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/БотСервер/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/БотКлиент/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 42
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/РасходТовара/Forms/ОформлениеДоставки/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСИсториейДанных/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 43
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/РасходТовара/Commands/ПечатьРасходнойНакладной/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСТорговымОборудованием/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСХранилищемОбщихНастроек/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 72
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РегламентныеЗаданияАгрегатов/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 71
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/СервисныеМеханизмы/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 72
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ОбменМобильныеОбщее/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 78
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/СистемаВзаимодействияКлиент/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 57
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ОбменМобильныеПереопределяемый/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 78
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/ХранимыеФайлы/Forms/ФормаПароля/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 35
+}
+},
+"severity": "Error",
+"code": "127 : 2.5.5. Все переменные модуля обычного приложения_ модуля управляемого приложения_ модуля сеанса_",
+"source": "acc",
+"message": "Отсутствует описание у экспортной переменной.\nПерем МенеджерСертификатов Экспорт;",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/SettingsStorages/ХранилищеВариантовОтчетов/Ext/ManagerModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 98
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonForms/НастройкаPushУведомлений/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Reports/ДашбордПродажи/Forms/ФормаОтчета/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  Форма \"ПриОткрытии\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  СледующийПример \"СледующийПример\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  ПредыдущийПример \"ПредыдущийПример\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  Домой \"Домой\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  ДиаграммаПоТоварамСброситьФильтр \"ДиаграммаПоТоварамСброситьФильтр\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  ДиаграммаПоПокупателямСброситьФильтр \"ДиаграммаПоПокупателямСброситьФильтр\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  ДиаграммаПоПериодамСброситьФильтр \"ДиаграммаПоПериодамСброситьФильтр\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "568 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Не обнаружено ссылок на функцию.\nНе обнаружено ссылок на функцию: \"РасшифровкаВЗначение\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/ОбщиеНастройки/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonCommands/БотОфисМенеджер/Ext/CommandModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Организации/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Пользователи/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "563 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Возможно ошибочный метод.\nВозможно ошибочный метод: \"ВидеоконференцииДоступны\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Встречи/Forms/Календарь/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "567 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Не обнаружено ссылок на процедуру.\nНе обнаружено ссылок на процедуру: \"ЗаписатьВКалендарь\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 650,
+"character": 0
+},
+"end": {
+"line": 650,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ОбновитьДанныеПланировщикаКлиентОбработчикОжидания() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/ПоступлениеДенег/Forms/ФормаДокумента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Documents/ПоступлениеДенег/Ext/ObjectModule.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 42,
+"character": 1
+},
+"end": {
+"line": 42,
+"character": 16
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//валютный учет  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 41,
+"character": 1
+},
+"end": {
+"line": 41,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Удалим из списка проверяемых реквизитов валюту, если по организации не ведется  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Catalogs/Контрагенты/Forms/ФормаЭлемента/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 418,
+"character": 2
+},
+"end": {
+"line": 418,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Не удалось установить расположение контрагента.'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 412,
+"character": 2
+},
+"end": {
+"line": 412,
+"character": 79
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Не удалось установить текущее местоположению.'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 394,
+"character": 3
+},
+"end": {
+"line": 394,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(НСтр(\"ru = 'Не удалось установить адрес по местоположению.'\", \"ru\"));  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/ГлобальныйПоискКлиент/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 55
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/CommonModules/РаботаСПолнотекстовымПоиском/Ext/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 62
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Reports/ОстаткиТоваровНаСкладахМобильный/Forms/ФормаОтчета/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 138,
+"character": 3
+},
+"end": {
+"line": 138,
+"character": 31
+}
+},
+"severity": "Error",
+"code": "565 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Использование модального вызова.\nИспользование модального вызова: \"Предупреждение\".\n\nСтрока модуля:\nПредупреждение(ТекстОшибки);  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 187,
+"character": 10
+},
+"end": {
+"line": 187,
+"character": 36
+}
+},
+"severity": "Error",
+"code": "565 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Использование модального вызова.\nИспользование модального вызова: \"ОткрытьЗначение\".\n\nСтрока модуля:\nОткрытьЗначение(Значение);  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 32
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/Reports/ОстаткиТоваровНаСкладахМобильный/Forms/ФормаНастроек/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 76
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/АдминистративныйСервис/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ДемонстрацияВозможностейДиаграмм/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ЖурналРегистрации/Forms/ЖурналРегистрации/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 145,
+"character": 0
+},
+"end": {
+"line": 145,
+"character": 41
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ОбновитьТекущийСписок() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 90
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ЖурналРегистрации/Forms/ОтборЖурналаРегистрации/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 101
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ЖурналРегистрации/Forms/РедакторСоставаСвойства/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 67,
+"character": 0
+},
+"end": {
+"line": 67,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ПолучитьОтредактированныйСписок(РедактируемыйСписок) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 5,
+"character": 0
+},
+"end": {
+"line": 5,
+"character": 88
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура УстановитьПараметрыРедактора(РедактируемыйСписок, ОтбираемыеПараметры) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 89
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 215,
+"character": 3
+},
+"end": {
+"line": 215,
+"character": 103
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// есть и помеченные и непомеченные, у себя при необходимости ставим непомечено и проверяем родителя  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 52,
+"character": 1
+},
+"end": {
+"line": 52,
+"character": 67
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// проверяем список на наличие подчиненных элементов, если их нет,\n// переводим ЭУ в режим Списка  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/НастройкиПользователя/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  АгентПодключен \"АгентПодключенПриИзменении\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ПроведениеДокументов/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 73,
+"character": 0
+},
+"end": {
+"line": 73,
+"character": 42
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавление документов в список выбранных  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 65,
+"character": 0
+},
+"end": {
+"line": 65,
+"character": 43
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Исключание документов из списка выбранных  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 59,
+"character": 1
+},
+"end": {
+"line": 59,
+"character": 37
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Подготовка списка видов документов  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 46,
+"character": 0
+},
+"end": {
+"line": 46,
+"character": 36
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Проведение документов за один день  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 34,
+"character": 2
+},
+"end": {
+"line": 34,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Вызов проведения на сервере за один день  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 23,
+"character": 1
+},
+"end": {
+"line": 23,
+"character": 61
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Проведение документов в цикле по дням выбранного интервала  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/Путеводитель/Forms/ФормаПутеводителя/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 102,
+"character": 1
+},
+"end": {
+"line": 102,
+"character": 53
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавляем последним макет ТиповыеПриемкиРазработки  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 94,
+"character": 1
+},
+"end": {
+"line": 94,
+"character": 98
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Добавляем макет ДополнительныеДемонстрационныеРесурсы после макета ДемонстрационнаяКонфигурация  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 84,
+"character": 2
+},
+"end": {
+"line": 84,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Вносим информацию по макетам, позиция вставки для которых не важна  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 74,
+"character": 2
+},
+"end": {
+"line": 74,
+"character": 78
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Запоминаем позицию макетов, для которых нужна вставка в определенное место  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 63,
+"character": 1
+},
+"end": {
+"line": 63,
+"character": 100
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Макет ДополнительныеДемонстрационныеРесурсы должен идти после макета ДемонстрационнаяКонфигурация  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 58,
+"character": 1
+},
+"end": {
+"line": 58,
+"character": 64
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Макет ТиповыеПриемкиРазработки должен идти последним в списке  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/РедактированиеЦен/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 152,
+"character": 0
+},
+"end": {
+"line": 152,
+"character": 60
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ПослеЗакрытияВопроса(Результат, Параметры) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 198,
+"character": 1
+},
+"end": {
+"line": 198,
+"character": 44
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Округляем, оставляя на мантиссу 3 разряда  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 193,
+"character": 1
+},
+"end": {
+"line": 193,
+"character": 31
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//Цена должна быть больше нуля  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/СписокАктивныхПользователей/Forms/ФормаСпискаАктивныхПользователей/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 82
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/УдалениеПомеченныхОбъектов/Forms/ОсновнаяФорма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 63
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 240,
+"character": 2
+},
+"end": {
+"line": 240,
+"character": 111
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// если удалилось все, на этом завершаем, даем посмотреть на результат и оставляем разрешенным только Закрыть  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 211,
+"character": 2
+},
+"end": {
+"line": 211,
+"character": 39
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//ветвь ссылки на не удаленный объект  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 209,
+"character": 2
+},
+"end": {
+"line": 209,
+"character": 31
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//ветвь не удаленного объекта  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 207,
+"character": 2
+},
+"end": {
+"line": 207,
+"character": 21
+}
+},
+"severity": "Error",
+"code": "246 : Проверка формата комментария",
+"source": "acc",
+"message": "Нет пробела в начале комментария.\n//ветвь метаданного  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 56,
+"character": 2
+},
+"end": {
+"line": 56,
+"character": 91
+}
+},
+"severity": "Error",
+"code": "244 : Проверка формата комментария",
+"source": "acc",
+"message": "Длинные комментарии должны начинаться с большой буквы.\n// это строка отображает объект, из-за которого не удалось удалить помеченный и выбранный  \n  \nhttps://its.1c.ru/db/v8std#content:456:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/УправлениеАгрегатамиПродаж/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/УправлениеНастройкамиФорм/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 70
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/УправлениеПолнотекстовымПоиском/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 63,
+"character": 0
+},
+"end": {
+"line": 63,
+"character": 65
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура УстановитьПолнотекстовыйПоискРазрешен(Разрешен) Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 20,
+"character": 0
+},
+"end": {
+"line": 20,
+"character": 40
+}
+},
+"severity": "Error",
+"code": "78 : Не следует размещать экспортные процедуры и функции в модулях форм",
+"source": "acc",
+"message": "Найдена экспортная процедура или функция в модуле формы.\nПроцедура ОчиститьИндексСервер() Экспорт  \n  \nhttps://its.1c.ru/db/v8std#content:630:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 52
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/УправлениеСистемойВзаимодействия/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "570 : Платформенная проверка конфигурации",
+"source": "acc",
+"message": "Ошибка платформенной проверки конфигурации: Отсутствует обработчик.\nОтсутствует обработчик:  EMail \"EMailПриИзменении\"  \n  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:467:hdoc  \nhttps://its.1c.ru/db/v8std#content:759:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/DataProcessors/ЭлектроннаяПочта/Forms/Форма/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 110,
+"character": 2
+},
+"end": {
+"line": 110,
+"character": 98
+}
+},
+"severity": "Error",
+"code": "69 : Поиск \"Сообщить()\"",
+"source": "acc",
+"message": "Использован метод \"Сообщить()\".\nСообщить(\"Ошибка при заполнении списка почтовых ящиков IMAP: \" + ИнформацияОбОшибке().Описание);  \n  \nhttps://its.1c.ru/db/v8std#content:418:hdoc",
+"relatedInformation": null
+},
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 22
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/InformationRegisters/ЦеныТоваров/Forms/ФормаСписка/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/AccumulationRegisters/Взаиморасчеты/Forms/ТекущиеВзаиморасчеты/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 0,
+"character": 0
+},
+"end": {
+"line": 0,
+"character": 10
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+},
+{
+"path": "file:///C:/Git1C/DemoUsher/src/cf/AccumulationRegisters/Взаиморасчеты/Forms/ФормаСписка/Ext/Form/Module.bsl",
+"diagnostics": [
+{
+"range": {
+"start": {
+"line": 1,
+"character": 0
+},
+"end": {
+"line": 1,
+"character": 81
+}
+},
+"severity": "Error",
+"code": "239 : Структура стандартных областей",
+"source": "acc",
+"message": "В модуле должны быть определены стандартные области.  \n  \nhttps://its.1c.ru/db/v8std#content:455:hdoc",
+"relatedInformation": null
+}
+]
+}
+]
+}
