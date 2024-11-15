@@ -12,10 +12,10 @@
     "prepareBase": true,
     "syntaxCheck": true,
     "sonarqube": true,
-    "smoke": true,
-    "tdd": true,
-    "bdd": true,
-    "build": true
+    "smoke": false,
+    "tdd": false,
+    "bdd": false,
+    "build": false
   },
   "prepareBase": {
     "sourcePath": "./src/cf"

@@ -22,12 +22,12 @@
   },
   "repositories": [
     {
-      "name": "my-base",
-      "path": "http://storage-server1C:1234/my-base",
+      "name": "demoup_ms",
+      "path": "C:/Storage1C/DemoUP",
       "dir": "./src/cf",
-      "v8version": "8.3.15.1489",
+      "v8version": "8.3.25.1394",
       "plugins-config": {
-        "URL": "https://github.com/MyCompany/my-project.git"
+        "URL": "https://github.com/Sergeyksk/DemoUsher.git"
       }
     }
   ]
